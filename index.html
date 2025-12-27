@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  </head>
+  <body class="bg-yellow-100 p-8 m-8">
+
+   <!-- Navbar -->
+<nav class="bg-white shadow-xl p-4">
+  <ul class="flex space-x-6">
+    <li><a href="#" class="text-orange-300 hover:underline">Home</a></li> 
+    <li><a href="#" class="text-orange-300 hover:underline">About</a></li>
+    <li><a href="#" class="text-orange-300 hover:underline">Contact</a></li>
+    <li><a href="#" class="text-orange-300 hover:underline">Footer</a></li>
+  </ul>
+</nav>
+
+
+    <!-- Hero Section -->
+    <section class="bg-gray-100 py-8">
+      <h1 class="text-4xl font-bold text-center">Welcome to Dhritika's Portfolio</h1>
+
+      <div class="text-center">
+        
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="flex flex-col items-center p-8 bg-pink-100 mt-10">
+      <img src="C:\Users\Dhritika\Downloads\WhatsApp Image 2025-12-27 at 17.24.42.jpeg" alt="Dhritika's Photo" class="w-32 aspect-square rounded-full border-4 border-black object-cover" />
+    
+      <div class="mt-4 text-center">
+        <h2 class="text-2xl font-bold text-black">About Me</h2>
+        <p class="text-red-500 mt-3 text-justify">
+          I am Dhritika Kashyap, a dynamic university student with a strong foundation in technical skills, evidenced by TATA-FORAGE and Deloitte certifications. Proven communication and leadership abilities through active participation in campus workshops. Eager to leverage my collaborative spirit and planning expertise to contribute effectively in a professional environment.
+        </p>
+        <div class="mt-4">
+          <span class="inline-block bg-blue-100 text-blue-800 px-3 py-2 rounded-full text-sm mr-2">HTML</span>
+          <span class="inline-block bg-blue-100 text-blue-800 px-3 py-2 rounded-full text-sm mr-2">CSS</span>
+          <span class="inline-block bg-blue-100 text-blue-800 px-3 py-2 rounded-full text-sm mr-2">JAVASCRIPT</span>
+          <span class="inline-block bg-blue-100 text-blue-800 px-3 py-2 rounded-full text-sm mr-2">C++</span>
+          <span class="inline-block bg-blue-100 text-blue-800 px-3 py-2 rounded-full text-sm mr-2">JAVA</span>
+          <span class="inline-block bg-blue-100 text-blue-800 px-3 py-2 rounded-full text-sm mr-2">PYTHON</span>
+        </div>
+        <button class="bg-gradient-to-r from-indigo-200 to-purple-300 text-white px-6 py-3 rounded-lg hover:from-pink-200 hover:to-purple-400">Download Resume</button>
+      </div>
+    </section>
+    
+
+    <!-- Projects Section -->
+    <section class="p-8 bg-gray-50 mt-10">
+      <h2 class="text-3xl font-bold text-center">Projects</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
+
+        <!-- Project Card 1 -->
+        <div class="bg-white shadow-lg overflow-hidden p-6">
+          <h3 class="text-xl font-semibold text-orange-400">MERN STACK WEBSITE</h3>
+          <p class="text-green-500 mt-2">I have created a MERN stack website for participation in a competition.</p>
+          <div class="mt-4 flex justify-between items-center">
+            <span class="text-sm text-gray-500">Tailwind CSS</span>
+            <button class="bg-gradient-to-r from-indigo-200 to-purple-300 text-white px-6 py-3 rounded-lg hover:from-pink-200 hover:to-purple-400">View project</button>
+          </div>
+        </div>
+
+        <!-- Project Card 2 -->
+        <div class="bg-white shadow-lg overflow-hidden p-6">
+          <h3 class="text-xl font-semibold text-orange-400">BIRTHDAY CARD WEBSITE</h3>
+          <p class="text-green-500 mt-2">I have created a Birthday card website for participation in a competition.</p>
+          <div class="mt-4 flex justify-between items-center">
+            <span class="text-sm text-gray-500">Tailwind CSS</span>
+            <button class="bg-gradient-to-r from-indigo-200 to-purple-300 text-white px-6 py-3 rounded-lg hover:from-pink-200 hover:to-purple-400">View project</button>
+          </div>
+        </div>
+
+        <!-- Project Card 3 -->
+        <div class="bg-white shadow-lg overflow-hidden p-6">
+          <h3 class="text-xl font-semibold text-orange-400">FORM SUBMISSION WEBSITE</h3>
+          <p class="text-green-500 mt-2">I have created a online form submission website for participation in a competition.</p>
+          <div class="mt-4 flex justify-between items-center">
+            <span class="text-sm text-gray-500">Tailwind CSS</span>
+            <button class="bg-gradient-to-r from-indigo-200 to-purple-300 text-white px-6 py-3 rounded-lg hover:from-pink-200 hover:to-purple-400">View project</button>
+          </div>
+        </div>
+
+        <!-- Project Card 4 -->
+        <div class="bg-white shadow-lg overflow-hidden p-6">
+          <h3 class="text-xl font-semibold text-orange-400">NETFLIX WEBSITE</h3>
+          <p class="text-green-500 mt-2">I have created a website like Netflix for participation in a competition.</p>
+          <div class="mt-4 flex justify-between items-center">
+            <span class="text-sm text-gray-500">Tailwind CSS</span>
+            <button class="bg-gradient-to-r from-indigo-200 to-purple-300 text-white px-6 py-3 rounded-lg hover:from-pink-200 hover:to-purple-400">View project</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--contact form-->
+    <section class="p-8 bg-white">
+      <div class="max-w-md mx-auto">
+        <form class="space-y-4">
+          <div>
+            <label class="block text-sm font-medium text-gray-700 mb-1">Name</label>
+            <input class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:border" placeholder="Your name" type="text" />
+          </div>
+
+          <div>
+            <label class="block text-sm font-medium text-gray-700 mb-1">Email</label>
+            <input class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:border" placeholder="Your email(abc@gmail.com)" type="text" />
+          </div>
+
+          <div>
+            <label class="block text-sm font-medium text-gray-700 mb-1">Contact</label>
+            <input class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:border" placeholder="Your contact detail" type="number" />
+          </div>
+
+          <div>
+            <label class="block text-sm font-medium text-gray-700 mb-1">Description</label>
+            <input class="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:border" placeholder="Your description" type="text" />
+          </div>
+
+          <button type="submit" class="w-full bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition duration-400">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <!--footer-->
+    <footer class="bg-gray-800 text-white p-8">
+      <div class="text-center">
+        <h3 class="text-lg font-semibold">Connect with me!</h3>
+        <div class="mt-4 space-x-4">
+          <a href="#" class="text-blue-400 hover:underline">LinkedIn</a>
+          <a href="#" class="text-blue-400 hover:underline">GitHub</a>
+          <a href="#" class="text-blue-400 hover:underline">Twitter</a>
+        </div>
+        <p class="mt-4 text-sm text-gray-400">© 2025 Your name. All rights reserved to Dhritika</p>
+      </div>
+    </footer>
+
+    <!--button-->
+    <button class="bg-gradient-to-r from-indigo-200 to-purple-300 text-white px-6 py-3 rounded-lg hover:from-pink-200 hover:to-purple-400">Explore Page</button>
+
+    <!--loading button-->
+    <button class="bg-gradient-to-r from-indigo-200 to-purple-300 text-white px-6 py-3 rounded-lg hover:from-pink-200 hover:to-purple-400">
+      Loading...
+      <span class="animate-spin inline-block w-4 h-4 border-2 border-white border-r-transparent rounded-full"></span>
+    </button>
+  </body>
+</html>
+
+
+
+ <!--gradient button
+<button class="bg-gradient-to-r from-indigo-500 to-purple-600 text-white px-6 py-3 rounded-lg hover:from-pink-300 hover:to-purple-500">Get Started </button>-->
+
+<!--<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<!--text-justify: to add space between words ,
+  rounded= border of box, 
+  hover= when we hover cursor it will do the thing we wrote like on hovering 800 shade of bg-blue-500
+  if u feel like i have a certain pic/design that will get overflowed on medium or small seized window then we style that side serperately (responsive)
+  duration means making smoothness in button or somwehere and duration-500 means 500miliseconds delay
